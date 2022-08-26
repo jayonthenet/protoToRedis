@@ -1,0 +1,10 @@
+syntax = "proto3";
+package nnd;
+option java_package = "de.nnd.protoToRedis";
+option java_outer_classname = "Protos";
+
+message Testy {
+    int32 id = 1;
+    string name = 2;
+    string greeting = 3;
+}
